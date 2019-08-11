@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Take Note - Edit</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Take Note</h1>
+            <h2 class="header__subtitle">Always take notes, you are not too smart to memorize the entire topics.</h2>
+        </div>
+    </header>
+    <div class="actions">
+        <div class="actions__container actions__container--spaced">
+            <a href="/index.html" class="button">Home</a>
+            <span id="last-edited"></span>
+        </div>
+    </div>
+    <div class="container">
+        <input id="note-title" type="text" class="title-input" placeholder="Note title">   
+        <textarea id="note-body" cols="30" rows="10" class="body-input" placeholder="Enter Note here"></textarea>
+        <button id="remove-note" class="button button--secondary">Remove Note</button>
+    </div>
+
+    <script src="/scripts/edit-bundle.js"></script>
+</body>
+</html>
